@@ -1,3 +1,4 @@
+/*estilos de cabecera*/
 .cabecera__container {
     display: flex;
     justify-content: space-between;
@@ -9,10 +10,20 @@
 .cabecera__buscar__item{
     display: none;
 }
+.rodapie__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 
 @media (min-width:834px){
     .cabecera__buscar__item{
         display: block;
+    }
+
+    .rodapie__container{
+        justify-content: space-between;
     }
 }
